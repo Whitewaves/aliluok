@@ -1,0 +1,79 @@
+<md-toolbar layout="row" class="docs-header-top md-hue-2" flex>
+    <div layout="row" flex>
+        <a ui-sref="home">
+            <img src="./../resources/img/aliluokLogo_30.png" alt="">
+        </a>
+    </div>
+    <div layout="row" layout-align="end" flex>
+        <a href="../../../">
+            <md-button>
+                <i class="fa fa-home"></i>
+                Home
+            </md-button>
+        </a>
+        <docs-md-divider></docs-md-divider>
+        <a ui-sref="about">
+            <md-button>
+                <i class="fa fa-info"></i>
+                Help
+            </md-button>
+        </a>
+        <docs-md-divider></docs-md-divider>
+        <a ui-sref="contact">
+            <md-button>
+                <i class="fa fa-info"></i>
+                FAQ
+            </md-button>
+        </a>
+    </div>
+</md-toolbar>
+<dashboard-title layout="row" layout-align="center center">DashBoard</dashboard-title>
+<md-toolbar layout="row" class="docs-dashboard-top md-hue-1" flex ng-controller="aliluokCtrl as app">
+    <div layout="row" flex>
+        <a ui-sref="dashboard">
+            <md-button>
+                <i class="fa fa-tachometer"></i>
+                Dashboard
+            </md-button>
+        </a>
+        <docs-md-divider></docs-md-divider>
+        <a ui-sref="menus">
+            <md-button>
+                <i class="fa fa-bars"></i>
+                Menus
+            </md-button>
+        </a>
+        <docs-md-divider></docs-md-divider>
+        <a ui-sref="pages">
+            <md-button>
+                <i class="fa fa-files-o"></i>
+                Pages
+            </md-button>
+        </a>
+        <docs-md-divider></docs-md-divider>
+        <a ui-sref="sliders">
+            <md-button>
+                <i class="fa fa-file-image-o"></i>
+                Sliders
+            </md-button>
+        </a>
+        <md-button ng-click="app.isLoggedIn()">
+            <i class="fa fa-cogs"></i>
+            Login
+        </md-button>
+    </div>
+    <div layout="row" layout-align="end" flex ng-if="app.isAuthenticated()">
+        <a ui-sref="users">
+            <md-button>
+                <i class="fa fa-users"></i>
+                Users
+            </md-button>
+        </a>
+        <a ui-sref="settings">
+            <md-button>
+                <i class="fa fa-cogs"></i>
+                App Settings
+            </md-button>
+        </a>
+    </div>
+</md-toolbar>

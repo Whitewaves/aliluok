@@ -1,0 +1,30 @@
+footer {
+  min-height: $footer-height;
+  width: 100%;
+  background: $footer-bkg;
+
+  .docs-footer-bottom {
+    height: $footer-bottom-height;
+    min-height: $footer-bottom-height;
+    max-height: $footer-bottom-height;
+    border-top: 1px solid #3F51B5;
+    padding: 0 10px !important;
+
+    .md-button {
+      border-radius: 0px !important;
+      color: currentColor;
+      padding: 0 5px !important;
+      margin: 0 !important;
+      line-height: 30px;
+      min-height: 30px;
+      min-width: 50px;
+      text-transform: capitalize;
+      font-size: 14px;
+      font-family: inherit;
+    }
+
+    .phone-number {
+      font-size: 12px !important;
+    }
+  }
+}

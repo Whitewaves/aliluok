@@ -1,0 +1,39 @@
+header {
+  height: $header-height;
+  width: 100%;
+  background: $header-bkg;
+  .docs-header-top {
+    padding: 0px 10px;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #3F51B5;
+    height: $header-top-height !important;
+    max-height: $header-top-height !important;
+    min-height: $header-top-height !important;
+
+    .md-button {
+      border-radius: 0px !important;
+      color: currentColor;
+      padding: 0 5px !important;
+      margin: 0 !important;
+      line-height: 30px;
+      min-height: 30px;
+      min-width: 50px;
+      text-transform: capitalize;
+      font-size: 14px;
+      font-family: inherit;
+    }
+
+    .phone-number {
+      font-size: 12px !important;
+    }
+  }
+
+  .docs-header-bottom {
+    border-radius: 0 !important;
+    height: $header-bottom-height !important;
+    max-height: $header-bottom-height !important;
+    min-height: $header-bottom-height !important;
+    padding: 0 10px !important;
+
+  }
+}

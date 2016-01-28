@@ -1,0 +1,37 @@
+.docs-dashboard-top {
+  width: 100%;
+  padding: 0px 10px;
+  border-radius: 0 !important;
+  border-bottom: 1px solid #3F51B5;
+  height: $header-top-height !important;
+  max-height: $header-top-height !important;
+  min-height: $header-top-height !important;
+
+  .md-button {
+    border-radius: 0px !important;
+    color: currentColor;
+    padding: 0 5px !important;
+    margin: 0 !important;
+    line-height: 30px;
+    min-height: 30px;
+    min-width: 50px;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-family: inherit;
+  }
+
+  .phone-number {
+    font-size: 12px !important;
+  }
+}
+
+.docs-md-content {
+  width: 100%;
+}
+
+dashboard-title {
+  height: 70px;
+  background: #303F9F;
+  color: #ffffff;
+  font-size: 45px;
+}

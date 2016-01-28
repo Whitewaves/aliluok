@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="aliluokAdmin" ng-controller="aliluokCtrl as app">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1">
+
+    <title>{{ app.title }}</title>
+
+    <link rel="stylesheet" href="./../resources/css/lib/font-awesome.min.css">
+    <link rel="stylesheet" href="./../resources/css/lib/angular-material.min.css">
+
+    <link rel="stylesheet" href="./css/docs.css">
+
+    <link rel="icon" href="./../favicon.png">
+</head>
+<body layout="row" layout-align="center">
+<md-whiteframe class="md-whiteframe-5dp" flex-sm="100" flex="95" flex-gt-md="80" layout="column" layout-align="start">
+    <header ng-include="'./views/layout/header.html'"></header>
+    <md-content class="docs-md-content" layout="column" flex ui-view></md-content>
+    <footer ng-include="'./views/layout/footer.html'"></footer>
+</md-whiteframe>
+
+<!-- Application Library Scripts -->
+<script src="./../resources/scripts/angular.min.js"></script>
+<script src="./../resources/scripts/angular-aria.min.js"></script>
+<script src="./../resources/scripts/angular-animate.min.js"></script>
+<script src="./../resources/scripts/angular-material.min.js"></script>
+<script src="./../resources/scripts/angular-ui-router.min.js"></script>
+
+<!-- Application Modules -->
+<script src="./js/app.module.js"></script>
+<script src="./js/app.constant.js"></script>
+<script src="./js/app.config.js"></script>
+<script src="./controllers/app.controller.js"></script>
+
+<!-- Application Services -->
+
+<!-- Application Controllers -->
+</body>
+</html>

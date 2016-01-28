@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway:200,500);
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 13px !important;
+  font-weight: 300;
+  //background-image: url("../../resources/img/az_subtle.png");
+}
+
+.fa {
+  color: #ff0000;
+  padding-right: 5px !important;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+
+}
+a:hover {
+  color: #ff0000;
+  .fa {
+    color: #26C6DA;
+  }
+}

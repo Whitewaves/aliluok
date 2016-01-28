@@ -1,0 +1,118 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway:200,500);
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 13px !important;
+  font-weight: 300; }
+
+.fa {
+  color: #ff0000;
+  padding-right: 5px !important; }
+
+a {
+  text-decoration: none;
+  color: currentColor; }
+
+a:hover {
+  color: #ff0000; }
+  a:hover .fa {
+    color: #26C6DA; }
+
+md-menu-content {
+  padding: 0;
+  border-radius: 0;
+  background-color: #5c6bc0;
+  color: #cddc39; }
+
+.top-nav {
+  min-height: 30px; }
+
+header {
+  height: 130px;
+  width: 100%;
+  background: white; }
+  header .docs-header-top {
+    padding: 0px 10px;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #3F51B5;
+    height: 30px !important;
+    max-height: 30px !important;
+    min-height: 30px !important; }
+    header .docs-header-top .md-button {
+      border-radius: 0px !important;
+      color: currentColor;
+      padding: 0 5px !important;
+      margin: 0 !important;
+      line-height: 30px;
+      min-height: 30px;
+      min-width: 50px;
+      text-transform: capitalize;
+      font-size: 14px;
+      font-family: inherit; }
+    header .docs-header-top .phone-number {
+      font-size: 12px !important; }
+  header .docs-header-bottom {
+    border-radius: 0 !important;
+    height: 70px !important;
+    max-height: 70px !important;
+    min-height: 70px !important;
+    padding: 0 10px !important; }
+
+footer {
+  min-height: 30px;
+  width: 100%;
+  background: #9fa8da; }
+  footer .docs-footer-bottom {
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+    border-top: 1px solid #3F51B5;
+    padding: 0 10px !important; }
+    footer .docs-footer-bottom .md-button {
+      border-radius: 0px !important;
+      color: currentColor;
+      padding: 0 5px !important;
+      margin: 0 !important;
+      line-height: 30px;
+      min-height: 30px;
+      min-width: 50px;
+      text-transform: capitalize;
+      font-size: 14px;
+      font-family: inherit; }
+    footer .docs-footer-bottom .phone-number {
+      font-size: 12px !important; }
+
+.docs-dashboard-top {
+  width: 100%;
+  padding: 0px 10px;
+  border-radius: 0 !important;
+  border-bottom: 1px solid #3F51B5;
+  height: 30px !important;
+  max-height: 30px !important;
+  min-height: 30px !important; }
+  .docs-dashboard-top .md-button {
+    border-radius: 0px !important;
+    color: currentColor;
+    padding: 0 5px !important;
+    margin: 0 !important;
+    line-height: 30px;
+    min-height: 30px;
+    min-width: 50px;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-family: inherit; }
+  .docs-dashboard-top .phone-number {
+    font-size: 12px !important; }
+
+.docs-md-content {
+  width: 100%; }
+
+dashboard-title {
+  height: 70px;
+  background: #303F9F;
+  color: #ffffff;
+  font-size: 45px; }
+
+docs-md-divider {
+  border-left: 1px solid #E8EAF6;
+  height: 15px;
+  margin: 7px; }
